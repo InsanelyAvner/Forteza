@@ -1,0 +1,101 @@
+:root {
+    --fz-dark-blue: #2b2e49;
+}
+
+.b-shape {
+    right: 100px;
+    width: 28%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
+    .b-shape {
+        right: 80px;
+    }
+}
+
+.hero-content .hero-title {
+    font-size: 2.5rem;
+    color: var(--fz-dark-blue);
+}
+
+.hero-content .hero-title span {
+    font-size: 4.5rem;
+    color: var(--fz-dark-blue);
+}
+
+.hero-content span {
+    color: var(--fz-dark-blue);
+}
+
+.hero-content p {
+    color: var(--fz-dark-blue);
+}
+.main-menu ul > li a {
+    color: var(--fz-dark-blue);
+}
+
+.header-meta ul li > a {
+    background: var(--fz-dark-blue);
+}
+
+.main-header .container-fluid .row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media (min-width: 1200px) {
+    .banner-area .col-xl-6 {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+}
+
+.banner-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    padding-top: 0px;
+}
+
+
+@media only screen and (min-width: 1199px) {
+    .b-shape {
+        width: 28%
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .b-shape {
+        width: 35%
+    }
+}
+
+.fzcourse__thumb img {
+    border-radius: 10px;
+}
+
+.header__transparent {
+    position: static;
+    background: #D9F1FF;
+}
+
+.logo img {
+    width: 162px;
+}
+
+.f-copyright__logo img {
+    width: 12vw;
+}
+
+img {
+    border-radius: 15px;
+}
+
+.fz-about-list li span strong {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
