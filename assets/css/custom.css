@@ -2,14 +2,35 @@
     --fz-dark-blue: #2b2e49;
 }
 
+.zoom {
+    transition: transform .5s;
+}
+
+.zoom:hover {
+    transform: scale(1.075);
+}
+
 .b-shape {
     right: 100px;
     width: 28%;
+    margin-left: 35px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
     .b-shape {
         right: 80px;
+    }
+}
+
+@media only screen and (min-width: 1199px) {
+    .b-shape {
+        width: 28%
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .b-shape {
+        width: 35%
     }
 }
 
@@ -57,21 +78,12 @@
     align-items: center;
 }
 
+.fz-about-list ul li i {
+    color: #fff;
+}
+
 .hero-content {
     padding-top: 0px;
-}
-
-
-@media only screen and (min-width: 1199px) {
-    .b-shape {
-        width: 28%
-    }
-}
-
-@media only screen and (max-width: 1199px) {
-    .b-shape {
-        width: 35%
-    }
 }
 
 .fzcourse__thumb img {
@@ -98,4 +110,40 @@ img {
 .fz-about-list li span strong {
     font-size: 1.3rem;
     font-weight: bold;
+}
+
+.fz-about-class-content .fz-section-title,
+.course-area  .fz-section-title,
+.course-area .fzcourse__title a,
+.fz-choose-content h2, .fz-choose-content h5,
+.testimonial .fz-section-title,
+.blog .fz-section-title  {
+    color: #fff;
+}
+
+.fz-about-class-content p,
+.fz-about-class-content ul li span,
+.fzcourse p,
+.fz-choose-content p {
+    color: #f1f1f1;
+}
+
+.choose-area {
+    background: url("assets/img/bg/bg-ocean-split-2.png"), #04577B;
+    background-repeat: no-repeat;
+}
+
+.fz-blog {
+    background: #f1f1f1;
+}
+
+.f-copyright__logo {
+    width: 170px;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.f-copyright__logo img {
+    width: auto;
 }
