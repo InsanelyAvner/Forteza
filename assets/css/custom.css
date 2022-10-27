@@ -129,7 +129,7 @@ img {
 }
 
 .choose-area {
-    background: url("assets/img/bg/bg-ocean-split-2.png"), #04577B;
+    background: #0077C4;
     background-repeat: no-repeat;
 }
 
@@ -146,4 +146,8 @@ img {
 
 .f-copyright__logo img {
     width: auto;
+}
+
+.choose-online-icon i {
+    background: var(--fz-heading-secondary);
 }
